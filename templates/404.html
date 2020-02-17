@@ -1,8 +1,24 @@
 {% extends "base.html" %}
 
 {% block head %}
+<link type="text/css" rel="stylesheet" href="{{ url_for('static', filename = 'css/home.css') }}">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 {% endblock %}
 
 {% block body %}
-<p>404.</p>
+<div class="container">
+    <div class="wrapper scroll-wrapper">
+        <div class="top-text">
+            <p class="text-title desktop-view">404.</p>
+            <p class="text-title desktop-view">Sorry friend.</p>
+        </div>
+        <div class="middle-text">
+
+            <p class="text-content">Go <a href="/">home?</a></p>
+            <br>
+        </div>
+    </div>
+</div>
 {% endblock %}
