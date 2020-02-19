@@ -63,7 +63,8 @@
         "/static/projects/417_project_2/interior.png"
       ],
       "videos": [
-        "<iframe src=\"https://www.youtube.com/embed/YS2IUz7lEZ4\" width=\"640\" height=\"452\" frameborder=\"0\" allow=\"autoplay; encrypted-media; fullscreen\" allowfullscreen></iframe>"
+        "<iframe src=\"https://www.youtube.com/embed/YS2IUz7lEZ4\" width=\"640\" height=\"452\" frameborder=\"0\" allow=\"autoplay; encrypted-media; fullscreen\" allowfullscreen></iframe>",
+        "<iframe src=\"https://www.youtube.com/embed/0M4UdpWqjgs\" width=\"640\" height=\"452\" frameborder=\"0\" allow=\"autoplay; encrypted-media; fullscreen\" allowfullscreen></iframe>"
       ]
     }
   ]
