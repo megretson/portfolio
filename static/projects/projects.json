@@ -45,7 +45,7 @@
       "link": "417_project_2",
       "date": "February 2020 ",
       "short": "My second project for Computer Animation: a turn-table of a treasure chest",
-      "status": "ongoing",
+      "status": "complete",
       "weight": 1,
       "tags": [
         "Animation"
@@ -54,10 +54,16 @@
         "Maya"
       ],
       "photos": [
-        "/static/projects/417_project_1/2k_mars.jpg"
+        "/static/projects/417_project_2/arc_reference.jpg",
+        "/static/projects/417_project_2/half_angle_wireframe.png",
+        "/static/projects/417_project_2/side_wireframe.png",
+        "/static/projects/417_project_2/half_angle.png",
+        "/static/projects/417_project_2/front.png",
+        "/static/projects/417_project_2/box_top.png",
+        "/static/projects/417_project_2/interior.png"
       ],
       "videos": [
-        "<iframe src=\"https://player.vimeo.com/video/389405181\" width=\"640\" height=\"452\" frameborder=\"0\" allow=\"autoplay; encrypted-media; fullscreen\" allowfullscreen></iframe>"
+        "<iframe src=\"https://www.youtube.com/embed/YS2IUz7lEZ4\" width=\"640\" height=\"452\" frameborder=\"0\" allow=\"autoplay; encrypted-media; fullscreen\" allowfullscreen></iframe>"
       ]
     }
   ]
