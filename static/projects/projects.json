@@ -66,6 +66,28 @@
         "<iframe src=\"https://www.youtube.com/embed/YS2IUz7lEZ4\" width=\"640\" height=\"452\" frameborder=\"0\" allow=\"autoplay; encrypted-media; fullscreen\" allowfullscreen></iframe>",
         "<iframe src=\"https://www.youtube.com/embed/0M4UdpWqjgs\" width=\"640\" height=\"452\" frameborder=\"0\" allow=\"autoplay; encrypted-media; fullscreen\" allowfullscreen></iframe>"
       ]
+    },
+    {
+      "name": "CSCI 417: Project 3",
+      "link": "417_project_3",
+      "date": "March 2020 ",
+      "short": "My second project for Computer Animation: bouncy betrayal",
+      "status": "complete",
+      "weight": 1,
+      "tags": [
+        "Animation"
+      ],
+      "tech_used": [
+        "Maya"
+      ],
+      "photos": [
+        "/static/projects/417_project_3/layout.png",
+        "/static/projects/417_project_3/anticipation_2.png",
+        "/static/projects/417_project_3/squash_boy.png"
+      ],
+      "videos": [
+        "<iframe src=\"https://www.youtube.com/embed/Kyptb9ZKkl0\" width=\"640\" height=\"452\" frameborder=\"0\" allow=\"autoplay; encrypted-media; fullscreen\" allowfullscreen></iframe>"
+      ]
     }
   ]
 }
