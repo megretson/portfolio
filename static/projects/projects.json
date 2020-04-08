@@ -108,6 +108,26 @@
       "videos": [
         "<iframe src=\"https://www.youtube.com/embed/xjdYa6slLmI\" width=\"640\" height=\"452\" frameborder=\"0\" allow=\"autoplay; encrypted-media; fullscreen\" allowfullscreen></iframe>"
       ]
+    },
+        {
+      "name": "CSCI 417: Project 5",
+      "link": "417_project_5",
+      "date": "April 2020 ",
+      "short": "My fifth project for Computer Animation",
+      "status": "complete",
+      "weight": 1,
+      "tags": [
+        "Animation"
+      ],
+      "tech_used": [
+        "Maya"
+      ],
+      "photos": [
+        "/static/projects/417_project_5/mixer.png"
+      ],
+      "videos": [
+        "<iframe src=\"https://www.youtube.com/embed/1s2HJJ2DE5Y\" width=\"640\" height=\"452\" frameborder=\"0\" allow=\"autoplay; encrypted-media; fullscreen\" allowfullscreen></iframe>"
+      ]
     }
   ]
 }
