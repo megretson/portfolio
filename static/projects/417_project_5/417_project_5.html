@@ -1,0 +1,79 @@
+<div>
+    <span>My fifth project for CSCI 417: Computer Animation</span>
+
+    <ul>
+        <li>Meg Anderson</li>
+        <li>2020.04.09</li>
+        <li>Project 5 - Roller Coaster</li>
+    </ul>
+    <p>
+        This was the fifth project, animating a Rube Goldberg machine using Maya dynamics.
+    </p>
+    <h3>Description</h3>
+    <p>
+    </p>
+    <img src="/static/projects/417_project_5/storyboard.jpg" class="center">
+    <br>
+    <p>
+        The basic idea is that this is a baking Rube Goldberg machine. The final product changed in several ways from the
+        storyboard outline, that I will discuss with each of the objects. I placed my machine into a little kitchen
+        because I thought it was cute.
+    </p>
+    <h3>Objects</h3>
+
+    <p>
+        <b>(1) Lever and fulcrum, with (2) egg and (3) weight</b>
+        <br>
+        This is the start of the animation: a weight falls on a lever
+        launching the egg into the bowl of the mixer. All of these components, except for the fulcrum, are active rigid
+        bodies. The fulcrum is a passive rigid body. Getting the weight of each component right was a problem, but I'm
+        satisfied with the ultimate result. As you might notice, this part of the machine is not as storyboarded.
+        Originally, this was meant to be a pulley, and I modelled a complicated chain set-up for it. Ultimately my
+        computer could not handle that many active rigid bodies interacting with each other; it crash and froze every
+        time not matter what I did, hence the change.
+    </p>
+    <img src="/static/projects/417_project_5/pulley.png" class="center">
+    <br>
+
+    <p>
+        <b>(4) Dominoes and (5) button</b>
+        <br>
+        The dominoes are hit by the weight, falling over onto a green button.
+        The dominoes should have been simple and ended up being quite frustrating. As you can see in the final playblast,
+        the dominoes kind of launch out of place. When I ran the simulation ONLY on the dominoes, this didn't happen. I
+        have to chalk it up to one too many objects again. The button is key-framed, but is a passive rigid body.
+    </p>
+    <br>
+
+    <p>
+        <b>(6) Ramp with chocolate chips</b>
+        <br>
+        Once the button is pressed by the dominoes, this lowers the barrier to release my "chocolate chips" into the bowl.
+        I modeled them as little chocolate balls because I liked the way they rolled better. In my final play blast one
+        actually escapes before it can make it into the bowl ¯\_(ツ)_/¯
+    </p>
+    <br>
+
+    <p>
+        <b>(7) Mixer and (8) vanilla bottle </b>
+        <br>
+        The mixer spins on once the chocolate chips have been added and after the vanilla is added to the mix. I'm
+        actually most proud of the mixer model; I did it by hand by creating cv curves that matched the curve of a
+        Kitchenaid, then lofting them out along the x-axis and converting that to a solid polygon. Several hours of
+        gentle fussing later, and I was satisfied with it's shape. I don't think it shows up super well in the final
+        product, so I've included an image here.
+    </p>
+    <br>
+     <img src="/static/projects/417_project_5/mixer.png" class="center">
+    <br>
+
+    <p>
+        Check out the final product <a href="https://youtu.be/1s2HJJ2DE5Y">here</a>.
+    </p>
+    <span>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/1s2HJJ2DE5Y" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </span>
+
+    <p>Thank you, thank you</p>
+    <br>
+</div>
