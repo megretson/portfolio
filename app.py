@@ -84,6 +84,10 @@ def project(title):
             'static/%s/%s/%s.html' % (path, selected['link'], selected['link'])), "r", encoding="utf-8").read()
     return render_template('project.html', project=selected)
 
+@app.route('/projects/GSG_Twine_Game')
+def game():
+    return app.send_static_file('projects/GSG_Twine_Game/GSG_Twine_Game.html')
+
 
 @app.errorhandler(404)
 def page_not_found(e):

@@ -89,7 +89,7 @@
         "<iframe src=\"https://www.youtube.com/embed/Kyptb9ZKkl0\" width=\"640\" height=\"452\" frameborder=\"0\" allow=\"autoplay; encrypted-media; fullscreen\" allowfullscreen></iframe>"
       ]
     },
-        {
+    {
       "name": "CSCI 417: Project 4",
       "link": "417_project_4",
       "date": "March 2020 ",
@@ -109,7 +109,7 @@
         "<iframe src=\"https://www.youtube.com/embed/xjdYa6slLmI\" width=\"640\" height=\"452\" frameborder=\"0\" allow=\"autoplay; encrypted-media; fullscreen\" allowfullscreen></iframe>"
       ]
     },
-        {
+    {
       "name": "CSCI 417: Project 5",
       "link": "417_project_5",
       "date": "April 2020 ",
@@ -127,6 +127,24 @@
       ],
       "videos": [
         "<iframe src=\"https://www.youtube.com/embed/1s2HJJ2DE5Y\" width=\"640\" height=\"452\" frameborder=\"0\" allow=\"autoplay; encrypted-media; fullscreen\" allowfullscreen></iframe>"
+      ]
+    },
+    {
+      "name": "Quarantine Gothic",
+      "link": "GSG_Twine_Game",
+      "date": "April 2020",
+      "short": "A Twine game made for Gender, Sexuality, and Gaming",
+      "status": "ongoing",
+      "weight": 1,
+      "tags": [
+        "GSG"
+      ],
+      "tech_used": [
+        "Twine"
+      ],
+      "photos": [
+      ],
+      "videos": [
       ]
     }
   ]
