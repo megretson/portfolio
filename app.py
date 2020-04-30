@@ -60,6 +60,7 @@ def order_projects_by_weight(projects):
 
 @app.route('/projects/<title>')
 def project(title):
+
     projects = get_static_json("static/projects/projects.json")['projects']
     experiences = get_static_json("static/experiences/experiences.json")['experiences']
 
@@ -86,7 +87,7 @@ def project(title):
 
 @app.route('/projects/QuarantineGothic')
 def game():
-    return app.send_static_file('projects/GSG_Twine_Game/QuarantineGothic.html')
+    return app.send_static_file('projects/QuarantineGothic/QuarantineGothic.html')
 
 
 @app.errorhandler(404)
