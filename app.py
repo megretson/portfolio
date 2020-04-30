@@ -6,7 +6,7 @@ import datetime
 import time
 from flask import Flask, render_template, request, url_for, redirect
 
-app = Flask(__name__, static_url_path="/static")
+app = Flask(__name__)
 
 try:
     app.config['GA_TRACKING_ID'] = os.environ['GA_TRACKING_ID']
@@ -83,11 +83,6 @@ def project(title):
         selected['description'] = io.open(get_static_file(
             'static/%s/%s/%s.html' % (path, selected['link'], selected['link'])), "r", encoding="utf-8").read()
     return render_template('project.html', project=selected)
-
-
-@app.route('/projects/QuarantineGothic')
-def game():
-    return app.send_static_file('projects/QuarantineGothic/QuarantineGothic.html')
 
 
 @app.errorhandler(404)
