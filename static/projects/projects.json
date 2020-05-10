@@ -129,7 +129,7 @@
         "<iframe src=\"https://www.youtube.com/embed/1s2HJJ2DE5Y\" width=\"640\" height=\"452\" frameborder=\"0\" allow=\"autoplay; encrypted-media; fullscreen\" allowfullscreen></iframe>"
       ]
     },
-        {
+    {
       "name": "CSCI 417: Project 6",
       "link": "417_project_6",
       "date": "April 2020 ",
@@ -147,6 +147,26 @@
       ],
       "videos": [
         "<iframe src=\"https://www.youtube.com/embed/RGwVhsnw2dE\" width=\"640\" height=\"452\" frameborder=\"0\" allow=\"autoplay; encrypted-media; fullscreen\" allowfullscreen></iframe>"
+      ]
+    },
+    {
+      "name": "CSCI 417: Final Project",
+      "link": "417_final_project",
+      "date": "May 2020 ",
+      "short": "My final project for Computer Animation",
+      "status": "complete",
+      "weight": 1,
+      "tags": [
+        "Animation"
+      ],
+      "tech_used": [
+        "Maya"
+      ],
+      "photos": [
+        "/static/projects/417_final_project/final_frame.jpg"
+      ],
+      "videos": [
+        "<iframe src=\"https://www.youtube.com/embed/6HJrpizRzDo\" width=\"640\" height=\"452\" frameborder=\"0\" allow=\"autoplay; encrypted-media; fullscreen\" allowfullscreen></iframe>"
       ]
     },
     {
